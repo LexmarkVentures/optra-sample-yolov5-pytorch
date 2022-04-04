@@ -1,0 +1,17 @@
+{
+    "name": "optra-sample-yolov5-pytorch",
+    "icon": "star",
+    "inputs": {
+        "summaryFrequencyMinutes" : {
+            "label" : "Send Summary Frequency (minutes)"
+        },
+        "includeObjectsFilter" : {
+            "label" : "Included Objects Filter (comma separated)"
+        }
+    },
+    "outputs": {
+        "objectsDetectedList" : {
+            "label" : "Objects Detected List"
+        }
+    }
+}
